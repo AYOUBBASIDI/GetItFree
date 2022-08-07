@@ -78,7 +78,7 @@
     </div>
 
     <div class="footer"># Enjoy</div>
-
+    <div class="sorry">The version mobile is coming soon ...</div>
 </body>
 
 
@@ -93,5 +93,6 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
+
 
 </script>
