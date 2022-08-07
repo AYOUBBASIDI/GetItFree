@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,7 +20,7 @@
 
 <body>
     <nav>
-        <div class="logo"><img src="./assets/getfree.png">
+        <div class="logo"><img src="./assets/getfree.png" alt="log get it free">
         </div>
     </nav>
 

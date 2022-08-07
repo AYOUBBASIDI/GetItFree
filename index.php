@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,12 +14,13 @@
     <meta name="keywords" content="games, download, telecharger, jeux , free, install, crack">
     <meta name="author" content="Ayoub Basidi">
     <meta name="publisher" content="Ayoub Basidi">
+    <meta name=”robots” content=”noindex,nofollow” />
     <title>Get It Free</title>
 </head>
 
 <body>
     <nav>
-        <div class="logo"><img src="./assets/getfree.png">
+        <div class="logo"><img src="./assets/getfree.png" alt="logo get it free">
         </div>
         <div class="important">
             <h1>Important :</h1>
@@ -32,7 +33,7 @@
             <div class="div1">
                 <div class="search">
                     <input type="text" id="input-search" onchange="search()" placeholder="What are searching for">
-                    <a><img src="./assets/search.svg">
+                    <a><img src="./assets/search.svg" alt="search icon">
                     </a>
                 </div>
             </div>
@@ -88,3 +89,5 @@
 
 <script src="App.js">
 </script>
+
+</html>
