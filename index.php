@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="icon" href="past here your logo path" type="image/x-icon">
+    <link rel="icon" href="./assets/littlelogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Here you will find a lot of games for free with a direct link (Mega - Drive - MediaFire ...) and an educational guide that helps you to download your game, we will save you time and effort, no one likes false links">
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <meta name="keywords" content="games, download, telecharger, jeux , free, install, crack">
+    <meta name="author" content="Ayoub Basidi">
+    <meta name="publisher" content="Ayoub Basidi">
     <title>Get It Free</title>
 </head>
 
