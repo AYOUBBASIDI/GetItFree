@@ -82,6 +82,25 @@ const games=[
     },
     {
         id:10,
+        name:'Five nights at freddys 1',
+        size:'218,95 Mb',
+        pic:'./assets/fnaf1.jpg',
+        from:'Media Fire',
+        link:'http://www.mediafire.com/file/hpud5fxotq8j0o9/Fnaf_1.zip/file',
+        tuto:'https://youtu.be/ia8iNce9Cu0',
+    },
+    
+    {
+        id:11,
+        name:'The Forest',
+        size:'3.91 GB',
+        pic:'./assets/forest.jpg',
+        from:'Mega',
+        link:'https://mega.nz/file/ztYgQbLa#gMVTJ0djlF-t2vzMzspvvv1Qq5kUquFn8E-BfLCOLg8',
+        tuto:'https://youtu.be/gDRqaNq2N6k',
+    },
+    {
+        id:12,
         name:'Trader Life Simulator',
         size:'8.67 GB',
         pic:'./assets/trader.jpg',
@@ -89,8 +108,25 @@ const games=[
         link:'https://www.mediafire.com/file/1qz7i80h5hqjjjb/Trader.Life.Simulator.v2.5_-_egyclickx.zip/file',
         tuto:'https://youtu.be/6ahSUqOps2w',
     },
+    {
+        id:13,
+        name:'Five nights at freddys 2',
+        size:'207,37 Mb',
+        pic:'./assets/fnaf2.jpg',
+        from:'Media Fire',
+        link:'https://www.mediafire.com/file/j5j9udw64295ozo/FNAF_2.exe/file',
+        tuto:'https://youtu.be/ia8iNce9Cu0',
+    },
+    {
+        id:14,
+        name:'Five nights at freddys 3',
+        size:'113,87 Mb',
+        pic:'./assets/fnaf3.png',
+        from:'Media Fire',
+        link:'http://www.mediafire.com/file/g20fqofzs2lgavd/Five_Nights_at_Freddys_3.exe/file',
+        tuto:'https://youtu.be/ia8iNce9Cu0',
+    }
 ];
-
 
 const gameDiv=document.getElementById('games');function returnGames(newgames){return"<div id=\"games\">"+newgames.map(item=>`<div class="game"onclick="getLink('${item.id}','${item.name}')"><div class="pic"style="    background: url(${item.pic}), linear-gradient(rgba(0,0,0,4%),rgba(0,0,0,0.5));background-blend-mode: overlay;background-position: center;background-repeat: no-repeat; background-size: cover;"></div><div class="infos"><div class="first line"><h4>Name:</h4><p>${item.name}</p></div><div class="second line"><div class="row"><h4>Size:</h4><p>${item.size}</p></div><div class="row"><h4>Get it From:</h4><p>${item.from}</p></div></div></div></div>`).join('')+"</div>";}
 let newgames=[];let page=1;let first=(page-1)*6;let last=page*6;if(last>games.length){last=games.length;}
